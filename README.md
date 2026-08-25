@@ -33,10 +33,10 @@ kept exactly where it matters most.
 
 ```mermaid
 flowchart LR
-    A["⏰ Schedule Trigger\n(daily 10:00)") --> B["📋 Get Dead Leads\nClickUp · filter: TO DO"]
-    B --> C["✍️ Generate AI Follow-up\nLLM Agent"]
-    C --> D["📨 Create a draft\nGmail · HTML + CTA button"]
-    D --> E["🏷️ Set Draft Done\nClickUp update"]
+    A["⏰ Schedule Trigger<br>daily 10:00"] --> B["📋 Get Dead Leads<br>ClickUp · filter TO DO"]
+    B --> C["✍️ Generate AI Follow-up<br>LLM Agent"]
+    C --> D["📨 Create a draft<br>Gmail · HTML + CTA button"]
+    D --> E["🏷️ Set Draft Done<br>ClickUp update"]
 ```
 
 **Status lifecycle** (single source of truth lives in your board):
